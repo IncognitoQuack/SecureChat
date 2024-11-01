@@ -21,9 +21,11 @@ Once you have Node.js installed, you can proceed to install the required package
 
 In the project directory, install the required packages with the following commands:
 
-#### npm install express
-#### npm install socket.io
-#### npm install crypto-js
+```bat
+npm install express
+npm install socket.io
+npm install crypto-js
+```
 
 These dependencies are essential for running the server and handling secure, real-time chat functionality.
 
@@ -33,9 +35,9 @@ These dependencies are essential for running the server and handling secure, rea
 
 To start the server, use the following command in the terminal within the project directory:
 
-#### node server.js
-
+```bat
 node server.js
+```
 
 This will launch the SecureChat server, making it accessible locally at -> http://localhost:3000
 
